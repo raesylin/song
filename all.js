@@ -72,7 +72,7 @@ var routeConfig = /*@ngInject*/ ["$locationProvider", "$routeProvider", function
 		redirectTo: '/'
 	});
 
-	$locationProvider.html5Mode(true);
+	// $locationProvider.html5Mode(true);
 }];
 
 module.exports = routeConfig;
